@@ -1,0 +1,17 @@
+Config file is /etc/drraw/drraw.conf
+
+In order to use drraw, follow these steps:
+
+* Define some RRD source directories in variable %datadirs in config file
+* Configure authentication and authorization using your web server
+  authentication mechanism and/or %users variable in config file
+    * All authenticated web server users have write access by default
+    * An unsafe but easier way is giving write permission to guest user
+      temporarily and reverting after editings:
+        %users = ( 'guest' => 1 );
+    * If you want graphs to be world-viewable, uncomment this line:
+        %users = ( 'guest' => 0 );
+* Browse to http://yourhost/cgi-bin/drraw/drraw.cgi and define some graphs
+* If you want to use the RCS feature of drraw, you'll need the librcs-perl package
+
+ -- Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>  Fri, 05 Dec 2008 20:02:11 +0330
