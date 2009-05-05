@@ -3,6 +3,7 @@
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: Patch for drraw.conf
+## DP: Sets correct data and cache directories for the Debian package
 
 @DPATCH@
 

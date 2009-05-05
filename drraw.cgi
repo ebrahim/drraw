@@ -1,4 +1,4 @@
-#! /usr/local/bin/perl -T
+#! /usr/bin/perl -T
 #
 # Copyright (C) 2002, 2003, 2004, 2005 Christophe Kalt
 #
@@ -49,7 +49,7 @@ use RRDs;
 
 # The configuration file is expected to be found in the same directory
 # as drraw itself.  You may customize this to be elsewhere.
-my $config = (dirname($0) =~ /(.*)/)[0] . "/drraw.conf"; # Untaint
+my $config = "/etc/drraw/drraw.conf"; # Untaint
 
 ###############################################################################
 ##   STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP STOP   ##

@@ -3,7 +3,7 @@ Section: web
 Priority: extra
 Maintainer: Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
 Build-Depends: debhelper (>= 7), dpatch
-Standards-Version: 3.8.0
+Standards-Version: 3.8.1
 Homepage: http://web.taranis.org/drraw/
 
 Package: drraw

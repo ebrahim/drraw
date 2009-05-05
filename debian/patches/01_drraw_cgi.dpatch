@@ -3,6 +3,8 @@
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: Patch for drraw.cgi
+## DP: Sets correct path for perl interpreter on Debian systems
+## DP: Changes config file path from its own directory to /etc/drraw/drraw.conf
 
 @DPATCH@
 

@@ -1,5 +1,2 @@
-etc/drraw
-usr/share/drraw
-usr/lib/cgi-bin/drraw
 var/lib/drraw
 var/cache/drraw

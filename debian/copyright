@@ -1,5 +1,5 @@
 This package was debianized by Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir> on
-Fri, 05 Dec 2008 15:13:41 +0330.
+Tue, 05 May 2009 03:36:50 +0430.
 
 It was downloaded from <http://web.taranis.org/drraw/dist/drraw-2.1.3.tar.gz>
 
@@ -38,5 +38,5 @@ License:
     NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
     EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-The Debian packaging is copyright 2008, Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir> and
+The Debian packaging is copyright 2009, Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir> and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
