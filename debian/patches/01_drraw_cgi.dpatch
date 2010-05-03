@@ -1,0 +1,20 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 01_drraw_cgi.dpatch by Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Patch for drraw.cgi
+## DP: Changes config file path from its own directory to /etc/drraw/drraw.conf
+
+@DPATCH@
+
+--- drraw.upstream/drraw.cgi	2008-12-15 23:57:22.000000000 +0330
++++ drraw/drraw.cgi	2008-12-15 23:31:06.000000000 +0330
+@@ -49,7 +49,7 @@
+ 
+ # The configuration file is expected to be found in the same directory
+ # as drraw itself.  You may customize this to be elsewhere.
+-my $config = (dirname($0) =~ /(.*)/)[0] . "/drraw.conf"; # Untaint
++my $config = "/etc/drraw/drraw.conf"; # Untaint
+ 
+# This needs to be manually set for stupid stupid File::Find to work
+# in tainted mode.

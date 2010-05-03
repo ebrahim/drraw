@@ -1,0 +1,32 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 02_drraw_conf.dpatch by Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Patch for drraw.conf
+## DP: Sets correct data and cache directories for the Debian package
+
+@DPATCH@
+diff -urNad '--exclude=CVS' '--exclude=.svn' '--exclude=.git' '--exclude=.arch' '--exclude=.hg' '--exclude=_darcs' '--exclude=.bzr' drraw~/drraw.conf drraw/drraw.conf
+--- drraw~/drraw.conf	2010-05-04 01:20:09.000000000 +0430
++++ drraw/drraw.conf	2010-05-04 01:23:46.882422843 +0430
+@@ -33,7 +33,8 @@
+ 
+ # This function is used to sort *.rrd and *.evt filenames before displaying
+ # them for the user to choose from.  It is passed the two arguments that
+-# need to be compared.#sub mydatafnsort { return $_[0] cmp $_[1]; }
++# need to be compared.
++#sub mydatafnsort { return $_[0] cmp $_[1]; }
+ 
+ # Default DS filter when adding graph data sources from RRD files
+ #$dsfilter_def = '';
+@@ -75,8 +76,8 @@
+ # These directories MUST EXIST and the user running CGI scripts must have
+ # read AND write access to them.  It is entirely safe to delete any content
+ # found in the temporary directory.
+-$saved_dir = '/somewhere/drraw/saved';
+-$tmp_dir = '/somewhere/drraw/tmp';
++$saved_dir = '/var/lib/drraw';
++$tmp_dir = '/var/cache/drraw';
+ # By default, critical errors are shown in the produced HTML pages produced
+ # and sent to standard error (which web servers typically write to some
+ # logfile).  If the following is defined, such errors will be written to

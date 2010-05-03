@@ -1,0 +1,3 @@
+drraw.cgi       usr/lib/cgi-bin/drraw
+icons           usr/share/drraw
+drraw.conf      etc/drraw
