@@ -49,7 +49,7 @@ use RRDs;
 
 # The configuration file is expected to be found in the same directory
 # as drraw itself.  You may customize this to be elsewhere.
-my $config = (dirname($0) =~ /(.*)/)[0] . "/drraw.conf"; # Untaint
+my $config = "/etc/drraw/drraw.conf"; # Untaint
 
 # This needs to be manually set for stupid stupid File::Find to work
 # in tainted mode.

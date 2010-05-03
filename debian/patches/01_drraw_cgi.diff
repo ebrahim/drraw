@@ -16,5 +16,5 @@
 -my $config = (dirname($0) =~ /(.*)/)[0] . "/drraw.conf"; # Untaint
 +my $config = "/etc/drraw/drraw.conf"; # Untaint
  
-# This needs to be manually set for stupid stupid File::Find to work
-# in tainted mode.
+ # This needs to be manually set for stupid stupid File::Find to work
+ # in tainted mode.

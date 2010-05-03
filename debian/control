@@ -2,13 +2,12 @@ Source: drraw
 Section: web
 Priority: extra
 Maintainer: Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
-Build-Depends: debhelper (>= 7), dpatch
+Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.4
 Homepage: http://web.taranis.org/drraw/
 
 Package: drraw
 Architecture: all
-Source: drraw
 Depends: librrds-perl, ${misc:Depends}
 Suggests: collectd
 Recommends: httpd | apache2, librcs-perl

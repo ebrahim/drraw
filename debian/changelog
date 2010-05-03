@@ -1,3 +1,9 @@
+drraw (2.2b2-2) unstable; urgency=low
+
+  * Switch to dpkg-source 3.0 (quilt) format
+
+ -- Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>  Tue, 04 May 2010 03:48:11 +0430
+
 drraw (2.2b2-1) unstable; urgency=low
 
   * Upgrade to newer upstream version 2.2b2 (Closes: #579991)
