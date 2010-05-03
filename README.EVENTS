@@ -16,4 +16,4 @@ For Example, here is an excerpt of an event file for a NetApp toaster:
 1045060191 Version: NetApp Release 6.3.1: Wed Nov 20 13:03:17 PST 2002
 1045274622 Version: NetApp Release 6.4: Fri Feb  7 01:16:52 PST 2003
 
-$Id: README.EVENTS,v 1.2 2004/08/01 02:02:26 kalt Exp $
+$Id: README.EVENTS,v 1.2 2004-08-01 02:02:26 kalt Exp $

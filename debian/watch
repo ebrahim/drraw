@@ -1,4 +1,0 @@
-# This is a uscan(1) watch file
-version=3
-
-http://web.taranis.org/drraw/dist/drraw-([\d\.]+).tar.gz
