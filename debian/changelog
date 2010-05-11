@@ -1,3 +1,9 @@
+drraw (2.2b2-3) unstable; urgency=low
+
+  * Switch to debhelper 7.0.50
+
+ -- Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>  Mon, 10 May 2010 15:41:38 +0430
+
 drraw (2.2b2-2) unstable; urgency=low
 
   * Switch to dpkg-source 3.0 (quilt) format

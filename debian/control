@@ -2,7 +2,7 @@ Source: drraw
 Section: web
 Priority: extra
 Maintainer: Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
 Homepage: http://web.taranis.org/drraw/
 

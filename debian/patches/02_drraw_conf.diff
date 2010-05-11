@@ -1,12 +1,8 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 02_drraw_conf.dpatch by Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Patch for drraw.conf
-## DP: Sets correct data and cache directories for the Debian package
+# Description: Sets correct data and cache directories for the Debian package
+# Author: Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
 
 @DPATCH@
-diff -urNad '--exclude=CVS' '--exclude=.svn' '--exclude=.git' '--exclude=.arch' '--exclude=.hg' '--exclude=_darcs' '--exclude=.bzr' drraw~/drraw.conf drraw/drraw.conf
+diff -urNad drraw~/drraw.conf drraw/drraw.conf
 --- drraw~/drraw.conf	2010-05-04 01:20:09.000000000 +0430
 +++ drraw/drraw.conf	2010-05-04 01:23:46.882422843 +0430
 @@ -33,7 +33,8 @@

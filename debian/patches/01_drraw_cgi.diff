@@ -1,9 +1,5 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 01_drraw_cgi.dpatch by Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Patch for drraw.cgi
-## DP: Changes config file path from its own directory to /etc/drraw/drraw.conf
+# Description: Changes config file path to /etc/drraw/drraw.conf
+# Author: Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>
 
 @DPATCH@
 
