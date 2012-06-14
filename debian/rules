@@ -1,19 +1,7 @@
 #!/usr/bin/make -f
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
-build:
-
-clean:
-	dh clean
-
-binary-indep:
-	dh binary-indep
-
-binary-arch:
-
-binary: binary-indep binary-arch
+%:
+	dh $@
 
 override_dh_fixperms:
 	dh_fixperms
@@ -22,5 +10,3 @@ override_dh_fixperms:
 override_dh_install:
 	dh_install
 	dh_link usr/share/drraw/icons usr/lib/cgi-bin/drraw/icons
-
-.PHONY: clean binary-indep binary-arch binary install

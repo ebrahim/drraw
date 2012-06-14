@@ -1,3 +1,9 @@
+drraw (2.2b2-4) unstable; urgency=low
+
+  * Upgrade the standard to 3.9.3 (which in turn fixes lintian warnings)
+
+ -- Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>  Thu, 14 Jun 2012 23:04:07 +0430
+
 drraw (2.2b2-3) unstable; urgency=low
 
   * Switch to debhelper 7.0.50
