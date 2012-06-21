@@ -1,6 +1,7 @@
 drraw (2.2b2-4) unstable; urgency=low
 
   * Upgrade the standard to 3.9.3 (which in turn fixes lintian warnings)
+  * More compact rules file
 
  -- Mohammad Ebrahim Mohammadi Panah <ebrahim@mohammadi.ir>  Thu, 14 Jun 2012 23:04:07 +0430
 
